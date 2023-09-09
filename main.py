@@ -27,6 +27,6 @@ async def loadCogs():
 
 async def main():
     await loadCogs()
-    await ceriumAI.start(os.getenv("TOKEN"))
+    await ceriumAI.start(os.getenv("BOT_TOKEN"))
 
 asyncio.run(main())
